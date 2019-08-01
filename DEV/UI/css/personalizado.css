@@ -1,0 +1,278 @@
+/*Fuente*/
+@font-face {
+    font-family: fuente1;
+    src: url(modernsans.otf);
+}
+
+/*Personalización Login*/
+body {
+    font-family: fuente1;
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    background-color: #0c2a46;
+}
+
+strong {
+    font-weight: 500;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+h1,
+h2 {
+    margin-top: 10px;
+    font-size: 38px;
+    font-weight: 100;
+    line-height: 50px;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+/* Contenidos y Formulario Login*/
+.my-content {
+    padding: 20px 0 20px 0;
+}
+
+.my-content .mydescription {
+    margin: 20px 0 10px 0;
+}
+
+.my-content .mydescription p {
+    opacity: 0.8;
+}
+
+.myform-cont {
+    margin-top: 30px;
+}
+
+.myform-top {
+    overflow: hidden;
+    padding: 0 25px 0 25px;
+    background:#0e0e0e;
+    -moz-border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.myform-top-left {
+    float: left;
+    width: 75%;
+    padding-top: 25px;
+    text-align: left;
+}
+
+.myform-top-left p {
+    opacity: 0.8;
+}
+
+.myform-top-right {
+    float: right;
+    width: 25%;
+    padding-top: 5px;
+    font-size: 66px;
+    text-align: right;
+}
+
+.myform-bottom {
+    padding: 25px 25px 30px 25px;
+    background: #0e0e0e;
+    -moz-border-radius: 0 0 10px 10px;
+    -webkit-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
+}
+
+.myform-bottom .mybtn {
+    width: 100%;
+}
+
+input[type="text"],
+input[type="password"],
+textarea,
+textarea.form-control {
+    height: 50px;
+    vertical-align: middle;
+    background: #fff;
+    border: 3px solid #fff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 50px;
+}
+
+/*Personalización ADMINISTRADOR*/
+strong {
+    font-weight: 500;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+h1 {
+    margin-top: 10px;
+    font-size: 38px;
+    font-weight: 100;
+    line-height: 50px;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+/* Contenidos y Formulario ADMINISTRADOR*/
+.contentAdmin {
+    padding: 20px 0 35px 0;
+}
+
+.contentAdmin .descriptionAdmin {
+    margin: 20px 0 10px 0;
+}
+
+.form-contAdmin {
+    margin-top: 25px;
+}
+
+.form-topAdmin {
+    overflow: hidden;
+    padding: 0 25px 0 25px;
+    background: rgba(4, 117, 165);
+    -moz-border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+}
+
+.form-top-leftAdmin {
+    float: left;
+    width: 75%;
+    padding-top: 5%;
+    text-align: left;
+}
+
+.form-top-leftAdmin p {
+    opacity: 0.8;
+}
+
+.form-top-rightAdmin {
+    float: right;
+    width: 25%;
+    padding-top: 5px;
+    font-size: 66px;
+    text-align: right;
+    
+}
+
+.myform-bottomAdmin {
+    padding: 25px 25px 30px 25px;
+    background: rgb(204, 225, 240);
+    -moz-border-radius: 0 0 10px 10px;
+    -webkit-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
+}
+
+.form-bottomAdmin .btnIngresarAdmin {
+    width: 100%;
+}
+
+input[type="text"],
+input[type="password"],
+textarea,
+textarea.form-controlAdmin {
+    height: 50px;
+    vertical-align: middle;
+    background: #fff;
+    border: 3px solid #fff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 50px;
+
+}
+
+/*Color de fondo Médico*/
+.bodymed {
+background-color: rgb(23, 84, 110);
+}
+
+/*Color de fondo Consultante*/
+.bodycons {
+    background-color: rgb(1, 45, 65);
+    }
+
+/*Color de fondo Farmacia*/
+.bodyfarm {
+    background-color: rgb(99, 183, 221);
+    }
+
+/* Media queries */
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+@media (max-width: 767px) {
+
+    .mytop-content {
+        padding: 60px 0 110px 0;
+    }
+
+}
+
+@media (max-width: 415px) {
+
+    h1,
+    h2 {
+        font-size: 32px;
+    }
+
+}
+.btn-success {
+    color: #fff;
+    background-color: #102716;
+    border-color: #28a745;
+  }
+  
+  .btn-success:hover {
+    color: #fff;
+    background-color: #102716;
+    border-color: #1e7e34;
+  }
+  .btn-danger {
+    color: #fff;
+    background-color: #2c060a;
+    border-color: #dc3545;
+  }
+  
+  .btn-danger:hover {
+    color: #fff;
+    background-color: #2c060a;
+    border-color: #bd2130;
+  }
+  .badge-danger {
+    color: #fff;
+    background-color: #2c060a;
+    border: 1px solid #bd2130;
+    
+  }
+  
+  .badge-danger[href]:hover, .badge-danger[href]:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: #2c060a;
+    border-color: #dc3545;
+  }
+  .menu{
+      justify-content: center;
+      justify-items: center;
+    background-color:#0062cc;
+  }
