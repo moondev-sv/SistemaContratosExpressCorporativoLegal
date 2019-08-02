@@ -10,7 +10,7 @@ if (!$conex->set_charset("utf8")) {
     printf("Error cargando el conjunto de caracteres utf8: %s\n", $conex->error);
     exit();
 } else {
-    printf("Conjunto de caracteres actual: %s\n", $conex->character_set_name());
+    //printf("Conjunto de caracteres actual: %s\n", $conex->character_set_name());
 }
 
 
