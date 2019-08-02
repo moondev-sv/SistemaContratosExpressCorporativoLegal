@@ -1096,7 +1096,7 @@ label {
                                                     value='' required>
                                             </div>
                                             <div align='left' class='col-6'>
-                                                Periodo de estadia
+                                                Período de estadía (Días)
                                                 <input name='tiempo_estimado_migratorio' type='number'
                                                     class="form-control" placeholder='5 dias' id='nacido_en_migratorio'
                                                     value='' required>
