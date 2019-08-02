@@ -2,6 +2,8 @@
 //Archivo de conexión a la base de datos
 include $_SERVER['DOCUMENT_ROOT']."/CL\DEV\UI\BD\conexion.php";//temporal
 
+
+
 //Variable de búsqueda
 $consultaBusqueda = $_POST['valorBusqueda'];
 
@@ -61,7 +63,9 @@ if (isset($consultaBusqueda)) {
 				
 			//Nacionalidad
 			$NacQuery = mysqli_query($conex, "SELECT `NombreNac` FROM `nacionalidad` WHERE `ID_Nacionalidad`= '$ID_Nacionalidad_FK' ") or die(mysqli_error($conex)) ;
+
 			$Nacorow = mysqli_fetch_array($NacQuery,MYSQLI_ASSOC);
+
 			$NombreNac = $Nacorow['NombreNac'];
 	
 			//Tipo de documento
