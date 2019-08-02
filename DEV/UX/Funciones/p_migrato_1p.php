@@ -3,7 +3,6 @@
 <script src="/CL/DEV/UI/js/popper.min.js"></script>
 <script src="/CL/DEV/UI/js/bootstrap.min.js"></script>
 <!-- PESTAÑA DE RECETA -->
-<script src="/CL/DEV/UI/js/jquery-3.3.1.min.js"></script>
 
 <style>
 #snackbar {
@@ -138,10 +137,16 @@ function funcionMostrarB(
         $("#ID_Munic_FKRec").keyup(function() {
             $("#ID_Munic_FKRecjs").val($("#ID_Munic_FKRec").val());
         });
+
         $("#ID_Nacionalidad_FKRecjs").val($("#ID_Nacionalidad_FKRec").val());
+
         $("#ID_Nacionalidad_FKRec").keyup(function() {
+
             $("#ID_Nacionalidad_FKRecjs").val($("#ID_Nacionalidad_FKRec").val());
         });
+
+
+
         $("#ID_DocIden_FKRecjs").val($("#ID_DocIden_FKRec").val());
         $("#ID_DocIden_FKRec").keyup(function() {
             $("#ID_DocIden_FKRecjs").val($("#ID_DocIden_FKRec").val());
@@ -1091,8 +1096,8 @@ label {
                                                     value='' required>
                                             </div>
                                             <div align='left' class='col-6'>
-                                                Periodo de estadia
-                                                <input name='tiempo_estimado_migratorio' type='text'
+                                                Período de estadía (Días)
+                                                <input name='tiempo_estimado_migratorio' type='number'
                                                     class="form-control" placeholder='5 dias' id='nacido_en_migratorio'
                                                     value='' required>
                                             </div>

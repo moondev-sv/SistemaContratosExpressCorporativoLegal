@@ -12,9 +12,9 @@ if ($TipoUsuario != 1) {
 <html lang="es">
 <head>
     <!-- Required meta tags -->
-    <meta charset="UTF-8">
-    <meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″ />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; utf-8">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- Bootstrap CSS -->
