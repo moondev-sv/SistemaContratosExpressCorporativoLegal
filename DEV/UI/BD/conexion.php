@@ -1,6 +1,6 @@
 <?php
 $user = "root"; // Usuario a usar en la base de datos
-$pass = "mysql"; // Contraseña que se usa en la bd
+$pass = ""; // Contraseña que se usa en la bd
 $server = "localhost";  // Servidor donde esta alojado la bd
 $bd = "corplegal"; // Nombre de la BD
 $conex = mysqli_connect($server, $user, $pass) or die ("No se ha podido entablar conexion con el servidor"); // Linea de conexion a el servidor 

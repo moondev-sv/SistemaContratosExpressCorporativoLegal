@@ -1,14 +1,17 @@
-<?php
+<?php	
+date_default_timezone_set('UTC');
+date_default_timezone_set("America/El_Salvador");
+
 error_reporting(0);
 header('Content-Type: text/html; charset=UTF-8');
 ini_set("default_charset", "UTF-8");
 mb_internal_encoding("UTF-8");
 //Archivo de conexión a la base de datos
-include $_SERVER['DOCUMENT_ROOT'] . "/CL\DEV\UI\BD\conexion.php"; //temporal
+include $_SERVER['DOCUMENT_ROOT'] . "/CL/DEV/UI/BD/conexion.php"; //temporal
 require_once $_SERVER['DOCUMENT_ROOT'] . "/CL/DEV/UX/Plugins/dompdf/autoload.inc.php";
-include $_SERVER['DOCUMENT_ROOT'] . "/CL\DEV\UI/Login/session.php";
-include $_SERVER['DOCUMENT_ROOT'] . "/CL\DEV\UX\Funciones\includes/funciones_corporativo.php"; 
-include $_SERVER['DOCUMENT_ROOT'] . "/CL\DEV\UX\Funciones\includes\Existen_categorias.php"; //Comprobar categorias
+include $_SERVER['DOCUMENT_ROOT'] . "/CL/DEV/UI/Login/session.php";
+include $_SERVER['DOCUMENT_ROOT'] . "/CL/DEV/UX/Funciones/includes/funciones_corporativo.php"; 
+include $_SERVER['DOCUMENT_ROOT'] . "/CL/DEV/UX/Funciones/includes/Existen_categorias.php"; //Comprobar categorias
 use Dompdf\Dompdf;
 ob_start();
 

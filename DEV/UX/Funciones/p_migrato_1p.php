@@ -1,3 +1,9 @@
+<?php 
+date_default_timezone_set('UTC');
+date_default_timezone_set("America/El_Salvador");
+?>
+
+
 <script src="/CL/DEV/UI/js/jquery-3.3.1.min.js"></script>
 <script src="/CL/DEV/UI/js/all.js"></script>
 <script src="/CL/DEV/UI/js/popper.min.js"></script>
@@ -1184,10 +1190,10 @@ label {
                                         <div class="input-group-text">Hecho Por:</div>
                                     </div>
                                     <input type="text" class="form-control" id="nommedRec" name="nommedRec"
-                                        placeholder="Nombre del medico" value="<?php include $_SERVER['DOCUMENT_ROOT'] . "/CL\DEV\UI\BD\conexion.php"; //temporal
+                                        placeholder="Nombre del medico" value="<?php include $_SERVER['DOCUMENT_ROOT'] . "/CL/DEV/UI/BD/conexion.php"; //temporal
                                 echo $NombreUsuario;?>" disabled>
                                     <input type="hidden" class="form-control" id="Id_Usuario" name="Id_Usuario"
-                                        placeholder="Nombre del medico" value="<?php include $_SERVER['DOCUMENT_ROOT'] . "/CL\DEV\UI\BD\conexion.php"; //temporal
+                                        placeholder="Nombre del medico" value="<?php include $_SERVER['DOCUMENT_ROOT'] . "/CL/DEV/UI/BD/conexion.php"; //temporal
                                 echo $CarnetUsuario;?>">
                                 </div>
                             </div>
@@ -1279,5 +1285,5 @@ label {
 
         </div>
         <?php
-             include $_SERVER['DOCUMENT_ROOT']."/CL\DEV\UX\Funciones/arrendamientocan.php";
+             include $_SERVER['DOCUMENT_ROOT']."/CL/DEV/UX/Funciones/arrendamientocan.php";
             ?>

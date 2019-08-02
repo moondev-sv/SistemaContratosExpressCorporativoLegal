@@ -1,6 +1,6 @@
 <?php
 //Conexion al servidor, base de datos.
-include $_SERVER['DOCUMENT_ROOT']."/CL\DEV\UI\BD\conexion.php";
+include "../BD/conexion.php";
 
    //Se inicia la sesion.
    session_start();

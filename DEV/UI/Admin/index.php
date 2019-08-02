@@ -1,6 +1,6 @@
 <?php
 //Se incluye para confirmar que el usuario tiene la sesion activa
-include_once $_SERVER['DOCUMENT_ROOT']."/CL\DEV\UI/Login/session.php";
+include_once "../Login/session.php";
 //Se comprueba que el usuario tiene el mismo tipo que el modulo.
 //Sirve para evitar que un usuario P. Ejemplo Medico quiera entrar al modulo Admin o vicebersa
 if ($TipoUsuario != 1) {

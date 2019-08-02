@@ -1,7 +1,6 @@
 <?php
 //Conexion al servidor, base de datos.
 require_once ('../BD/conexion.php');
-
 //Inicio de la sesion del usuario
 session_start();
 
@@ -12,7 +11,7 @@ session_start();
       $Usuario = mysqli_real_escape_string($conex,$_POST['user']);
       $Contrasenia = mysqli_real_escape_string($conex,$_POST['pass']); 
       //Consulta para comparar el $Usuario y $Contrasenia en la base de datos
-      $sql = "SELECT ID_Usuario FROM usuario WHERE NickUser = '$Usuario' and ContUser = '$Contrasenia'";
+      $sql = "SELECT ID_Usuario FROM usuario WHERE NickUser = '$Usuario' and ContUser = '$Contrasenia';";
       $result = mysqli_query($conex,$sql) or die(mysqli_error($conex)) ;
       $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
       $count = mysqli_num_rows($result);
